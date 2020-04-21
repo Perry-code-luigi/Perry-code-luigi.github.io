@@ -2,7 +2,7 @@ h1{
     text-align: center;
     text-decoration: underline;
     color: #6a921f; 
-    
+
 }
 h2{
     color: #6a921f;
@@ -19,6 +19,8 @@ a:visited{
 }
 .comment{
     background-color: #fff670;
+    padding-left: 50px;
+    padding-right:50px;
 }
 .footer{
 text-align: right;
