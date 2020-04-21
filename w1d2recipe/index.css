@@ -1,20 +1,15 @@
-h1{
-    text-align: center;
-    text-decoration: underline;
-    color: #6a921f;
-    text-shadow: darkgrey;
-}
-h2{
-    color: #6a921f;
 
-}
 a:visited{
     color: #668c1f;
 }
 .h2{
+    color: #6a921f;
     background-color: #f0f0f0;
 }
 .h1{
+    text-align: center;
+    text-decoration: underline;
+    color: #6a921f;
     background-color: #f0f0f0;
 }
 .comment{
