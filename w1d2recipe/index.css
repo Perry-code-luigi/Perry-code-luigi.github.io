@@ -19,8 +19,8 @@ a:visited{
 }
 .comment{
     background-color: #fff670;
-    padding-left: 50px;
-    padding-right:50px;
+ padding-top: 50px;
+ padding-right: 30px;
 }
 .footer{
 text-align: right;
