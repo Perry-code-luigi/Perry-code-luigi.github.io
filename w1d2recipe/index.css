@@ -4,12 +4,14 @@ h1{
     color: #A4A400; 
     font-size: 22pt;
     font-weight: bold;
+    margin: 0 0.25em;
 }
 h2{
     color: #A4A400;
     font-family: Lucida Sans Unicode, Helvetica, Arial;
     font-size: 18pt;
     text-decoration: underline;
+    margin: 0 0.25em;
 }
 a:visited{
     color: #A4A400;
@@ -18,11 +20,13 @@ a:visited{
     background-color: #F0F0F0;
     font-size: 18pt;
     text-decoration: underline;
+    margin: 0 0.25em;
 }
 .h1{
     background-color: #F0F0F0;
     font-size: 18pt;
     text-decoration: underline;
+    margin: 0 0.25em;
 }
 .comment{
  background-color: #fff670;
@@ -39,11 +43,15 @@ body{
     color: #404040;
     font-size: 11pt;
     font-family: Georgia,Garamond;
+    background-image: url("silverware.jpg"); 
 }
 a{
 	color: #A4A400;
 }
 
+ul{
+	list-style-image: url("/w1d2recipe/pie_icon.gif");
+}
 
 .tooltiptext {
   visibility: hidden;
@@ -60,6 +68,7 @@ a{
 
 .tooltip:hover .tooltiptext {
   visibility: visible;
+  left: 10%;
 }
 .replacable{
 	visibility: hidden;
@@ -74,4 +83,7 @@ a{
 }
 .footer{
 	float: left;
+}
+img{
+	margin-top: 1%;
 }
