@@ -1,0 +1,25 @@
+
+body{
+background-image: url('/background.png');
+
+}
+#banner{
+
+display:block;
+background-image: url('/banner.png');
+
+}
+#h2-element{
+    text-align: center;
+    font-family: verdana,tahoma,"sans-serif";
+}
+.outer-box{
+    margin: auto;
+    width: 50%;
+   
+}
+#bannerbg{
+    background-image: url('/bannerbg.png');
+    background-repeat: repeat-x;
+    height: 50px;
+}
