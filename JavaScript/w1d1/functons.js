@@ -27,10 +27,10 @@ function reverse(str){
 }
 function filterLongWords(str,i){
     return JSON.stringify(str.filter(function(word){
-     return word.lenght > i;
-    }));
+        return word.length > i;
+    }
+    ));
 }
-
 
 
 
@@ -40,6 +40,5 @@ function filterLongWords(str,i){
 // console.log("Expected multiply output for arr[2,2,3]: 12\n" + myFunctionTest(multiply([2,2,3]), 7));
 // console.log("Expected reverse result for perry: yrrep\n" + myFunctionTest(reverse("perry"), "yrrep"));
 // console.log("Expected reverse result for perry: yrrep\n" + myFunctionTest(reverse("perry"), "rep"));
-// console.log("Expected word length greater than 3 inside ['bird','dog','monkey']: ['bird','monkey']\n" + myFunctionTest(filterLongWords(['bird','dog','monkey'],3), JSON.stringify(['bird','monkey'])));
-// console.log("Expected word length greater than 3 inside ['bird','dog','monkey']: ['bird','monkey']\n" + myFunctionTest(filterLongWords(['bird','dog','monkey'],3), JSON.stringify(['aaa','bbb'])));
-console.log(filterLongWords(['bird','dog','monkey'],3));
+console.log("Expected word length greater than 3 inside ['bird','dog','monkey']: ['bird','monkey']\n" + myFunctionTest(filterLongWords(['bird','dog','monkey'],3), JSON.stringify(['bird','monkey'])));
+console.log("Expected word length greater than 3 inside ['bird','dog','monkey']: ['bird','monkey']\n" + myFunctionTest(filterLongWords(['bird','dog','monkey'],3), JSON.stringify(['aaa','bbb'])));
