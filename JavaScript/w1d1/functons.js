@@ -4,9 +4,11 @@
 
 
 function myfunc(arr){
- let sum=arr.reduce(function(current,item){
-        return current+item;
-    },0);
-return sum;
+
+return arr.reduce(function(current,item){
+    return current+item;
+},0);
 }
-console.log(myfunc.apply(myfunc.apply([1,1,1,1,1,1,1,1,1])));
+let arr=[1,1,1,1,1,1,1,1,1];
+
+console.log(myfunc.apply(myfunc.apply(arr)));
