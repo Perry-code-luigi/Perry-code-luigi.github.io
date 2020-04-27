@@ -28,9 +28,9 @@ function reverse(str){
 
 
 
-console.log("Expected sum output for arr[2,2,3]: 6\n" + myFunctionTest(sum([2,2,3]), 7));
-console.log("Expected sum output for arr[2,2,3]: 6\n" + myFunctionTest(sum([2,2,3]), 3));
-console.log("Expected multiply output for arr[2,2,3]: 12\n" + myFunctionTest(multiply([2,2,3]), 12));
-console.log("Expected multiply output for arr[2,2,3]: 12\n" + myFunctionTest(multiply([2,2,3]), 7));
-console.log("Expected reverse result for perry: yerrp\n" + myFunctionTest(reverse("perry"), "yerrp"));
-console.log("Expected reverse result for perry: yerrp\n" + myFunctionTest(reverse("perry"), "rep"));
+// console.log("Expected sum output for arr[2,2,3]: 6\n" + myFunctionTest(sum([2,2,3]), 7));
+// console.log("Expected sum output for arr[2,2,3]: 6\n" + myFunctionTest(sum([2,2,3]), 3));
+// console.log("Expected multiply output for arr[2,2,3]: 12\n" + myFunctionTest(multiply([2,2,3]), 12));
+// console.log("Expected multiply output for arr[2,2,3]: 12\n" + myFunctionTest(multiply([2,2,3]), 7));
+console.log("Expected reverse result for perry: yrrep\n" + myFunctionTest(reverse("perry"), "yrrep"));
+console.log("Expected reverse result for perry: yrrep\n" + myFunctionTest(reverse("perry"), "rep"));
