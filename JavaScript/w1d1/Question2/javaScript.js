@@ -1,6 +1,6 @@
 window.onload = function () {
     let btnClick = function () {
-      //  alert("Hello, world!");
+        // alert("Hello, world!");
         let size = 0;
         if (document.getElementById('text').style.fontSize == '') {
             size = 12;
@@ -43,12 +43,12 @@ window.onload = function () {
         }
         document.getElementById('text').value = arr.join(' ');
     };
-    
+}
+
 function isVowel(a) {
     if (a === "A" || a === "E" || a === "I" || a === "O" || a === "U" ||
         a === "a" || a === "e" || a === "i" || a === "o" || a === "u") {
         return true;
     }
     return false;
-}
 }
