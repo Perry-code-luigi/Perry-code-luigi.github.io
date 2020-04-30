@@ -1,6 +1,6 @@
 (function() {
     "use strict";
-    "use strict";
+   
 
     console.log(reverseArray(["A", "B", "C"]));
 
