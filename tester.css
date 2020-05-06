@@ -1,0 +1,32 @@
+.container {
+    position: relative;
+    height: 500px;
+    background-color: grey;
+}
+
+.inner {
+    position: absolute;
+    background-color: red;
+}
+
+.not-inner {
+    background-color: #fff;
+    height: 150px;
+}
+
+.sticky-container {
+    height: 700px;
+    position: relative;
+    background-color: hotpink;
+    transition: all 0.5s ease;
+}
+
+.sticky-container.active {
+    background-color: indigo;
+}
+
+.sticky-element {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
